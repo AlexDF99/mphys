@@ -28,16 +28,16 @@ class MPhysVariables:
             #: current node coordinates, deformed by geometry and/or structures
             COORDINATES = "x_aero"
 
-            class Geometry:
-                #: node coordinates, input to geometry subsystem
-                COORDINATES_INPUT = "x_aero0_geometry_input"
+        class Geometry:
+            #: node coordinates, input to geometry subsystem
+            COORDINATES_INPUT = "x_aero0_geometry_input"
 
-                #: node coordinates, output of geometry subsystem
-                COORDINATES_OUTPUT = "x_aero0_geometry_output"
+            #: node coordinates, output of geometry subsystem
+            COORDINATES_OUTPUT = "x_aero0_geometry_output"
 
-            class Mesh:
-                #: node coordinates, original surface from mesh file
-                COORDINATES = "x_aero0_mesh"
+        class Mesh:
+            #: node coordinates, original surface from mesh file
+            COORDINATES = "x_aero0_mesh"
 
     class Structures:
         #: displacements at mesh nodes
